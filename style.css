@@ -14,3 +14,20 @@ section {
   min-height: 100vh;
   background: #001d10;
 }
+
+.loading {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.loading .blocks {
+  position: absolute;
+  width: 8px;
+  height: 25px;
+  background: #050c09;
+  left: 50%;
+  transform: rotate(calc(18deg * var(--i)));
+  transform-origin: 0 125px;
+  animation: animate 1.9s ease-in-out infinite;
+}
