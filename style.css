@@ -57,3 +57,16 @@ h3 {
   letter-spacing: 2px;
   animation: animateText 2s ease-in-out infinite;
 }
+
+@keyframes animateText {
+  0%,
+  50% {
+    color: #050c09;
+    text-shadow: none;
+  }
+  50.1%,
+  100% {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0, 0 0 15px #0f0;
+  }
+}
