@@ -47,3 +47,13 @@ section {
       0 0 90px #0f0;
   }
 }
+
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  letter-spacing: 2px;
+  animation: animateText 2s ease-in-out infinite;
+}
